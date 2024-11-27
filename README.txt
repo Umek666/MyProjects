@@ -1,0 +1,3 @@
+This repository showcases a collection of projects that initially began as practice exercises but evolved into fully functional applications. Each project is crafted from scratch using various technologies, including JavaScript with Angular and TypeScript or React. The development process encompasses several phases: application planning, defining criteria, setting up the foundation, development, and rigorous testing. The projects utilize a range of tools such as Node.js, Express, Vite, and popular libraries like RxJS, Angular Material, and Bootstrap, along with testing frameworks like Cypress and Jasmine. All projects were developed using Visual Studio Code as the primary code editor.
+
+Each project features its own README file.

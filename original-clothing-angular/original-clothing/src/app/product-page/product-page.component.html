@@ -1,0 +1,6 @@
+<div class="image-container" *ngIf="product$ | async as product">
+  <img [src]="product.image" alt="Product Thumbnail" />
+  <h1 class="title gap-1">{{ product.name }}</h1>
+  <br />
+  <h3 class="price gap-1">Price: {{ product.price }}</h3>
+</div>

@@ -1,0 +1,21 @@
+.nav {
+  font-size: 4em;
+  font-family: "Courier New", Courier, monospace "Lucida Sans", Arial,
+    sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(30, 69, 82);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0px 8px 12px rgb(0, 0, 0, 0.5);
+  text-shadow: 2px 4px 8px;
+  background-color: rgb(201, 225, 151);
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  vertical-align: middle;
+  margin: 10px;
+  box-shadow: 0px 8px 12px rgb(0, 0, 0, 0.5);
+}

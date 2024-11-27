@@ -1,0 +1,43 @@
+.login-container {
+  max-width: 400px;
+  margin: 100px auto 50px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+input {
+  width: 90%;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+button {
+  width: 90%;
+  padding: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #455153;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logo {
+  display: block;
+  height: 100%;
+  object-fit: contain;
+  height: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}

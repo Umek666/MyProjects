@@ -1,0 +1,7 @@
+.innerContainer {
+  background-color: rgb(228, 239, 202);
+  padding: 10px;
+  flex: 1;
+  margin: 10px;
+  box-shadow: 0px 8px 12px rgb(0, 0, 0, 0.5);
+}
