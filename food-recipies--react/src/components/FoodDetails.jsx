@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from "./fooddetails.module.css";
 import ItemList from "./itemList";
+import { api_key } from "../../config";
 
 export default function FoodDetails({ foodId }) {
   const [food, setFood] = useState({});
@@ -9,7 +10,7 @@ export default function FoodDetails({ foodId }) {
   const API_KEY = "3d9b467bc49f402e8e4afa5698be1ec3";
   useEffect(() => {
     async function fetchFood() {
-      const res = await fetch(`${URL}?apiKey=${API_KEY}`);
+      const res = await fetch(`${URL}?apiKey=${api_key}`);
       const data = await res.json();
       console.log(data);
       setFood(data);
