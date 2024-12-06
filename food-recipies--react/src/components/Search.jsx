@@ -3,7 +3,6 @@ import styles from "./search.module.css";
 import { api_key } from "../../config";
 
 const URL = "https://api.spoonacular.com/recipes/complexSearch";
-const API_KEY = "3d9b467bc49f402e8e4afa5698be1ec3";
 
 export default function Search({ foodData, setFoodData }) {
   const [query, setQuery] = useState("pizza");
